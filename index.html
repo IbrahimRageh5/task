@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <!-- Start counter section -->
+    <div class="text-center">
+        <h2 id="demo" class="mt-4 mb-2">0</h2>
+        <button class="btn btn-info mr-3 " onclick="increment()">increment</button>
+        <button class="btn btn-danger "onclick="Decrement()">Decrement</button>
+    </div>
+    <!-- End counter section -->
+
+<!-- Start Dollar section -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-center mt-5">Convert from dollar to Egyptian</h2>
+            <form  onsubmit="return Validit()">
+                <input type="text" class="form-control " id="input" placeholder="Please Enter Number" name="text" >
+                <input type="submit" class="btn btn-primary btn-block mt-3">
+                <h3 id="result"></h3>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- End Dollar section -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
